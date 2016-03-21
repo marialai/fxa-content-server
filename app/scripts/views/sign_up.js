@@ -10,6 +10,7 @@ define(function (require, exports, module) {
   var Cocktail = require('cocktail');
   var CoppaAgeInput = require('views/coppa/coppa-age-input');
   var ExperimentMixin = require('views/mixins/experiment-mixin');
+  var FlowBeginMixin = require('views/mixins/flow-begin-mixin');
   var FormView = require('views/form');
   var mailcheck = require('lib/mailcheck');
   var MigrationMixin = require('views/mixins/migration-mixin');
@@ -403,6 +404,7 @@ define(function (require, exports, module) {
     View,
     CheckboxMixin,
     ExperimentMixin,
+    FlowBeginMixin,
     MigrationMixin,
     PasswordMixin,
     PasswordStrengthMixin,
